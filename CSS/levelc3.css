@@ -1,0 +1,35 @@
+#d1{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+    margin: 50px 100px 100px 100px;
+    border: 5px dotted;
+    border-color: rgb(227, 41, 41);
+}
+#d2{
+    background-color: rgb(26, 228, 36);
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    margin: 10px 50px 50px 100px;
+    border-bottom:20px solid rgb(89, 187, 204);
+    border-top-right-radius: 20px rgb(23, 0, 128);
+    
+    
+}
+#d3{
+height: 200px;
+width: 200px;
+background-color: blanchedalmond;
+text-align: center;
+}
+#b1{
+height: 70px;
+width: 70px;
+padding: 10px 15px 10px 15px;
+background-color: magenta;
+margin: 100px;
+border: 10px solid red;
+border-radius: 100px;
+}

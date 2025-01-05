@@ -1,0 +1,50 @@
+.black{
+    height: 50px; 
+    width: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+ }
+ *{margin: 0;padding: 0;
+ background-color: aquamarine;}
+ .bk{height: 50px;
+     width: 50px;
+     background-repeat: no-repeat;
+     
+     
+ background-image: url(/HTML/images/th.jpg);
+ background-size: contain;
+background-color: blueviolet;}
+#b2{ color: rgb(197, 116, 9);background-color: rgb(233, 184, 182);}
+#b1,#b3 {background-color: rgb(63, 47, 205);}
+#b5{
+background-color: rgb(230, 36, 224);
+visibility: hidden;
+height: 50px;
+width: 50px;
+margin-top: 10px;
+}
+
+ /* practice set 2 , q1 */
+ #bar{
+    background-color:rgb(227, 201, 201);
+    color: rgba(87, 9, 9, 0.6);
+            }
+            /* practice set 2 , q2 */
+            main{
+                color: blue;
+            }
+         /* practice set 2 , q3 */ 
+    #q3{
+        background-image: url(/HTML/images/OIP.jpg);
+        height: 150px;
+        width:350px;
+        color: rgb(232, 46, 46);
+        text-align: center;
+        /* height: 500px;
+        width: 500px; */
+        /* background-position: center; */
+        /* background-repeat: no-repeat; */
+       
+    }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form action="/submit" method="post">
+         <!-- <form action=""> here action listner is used for 
+        gige the url of server to store the data of the user  -->
+       
+     <label for="name">Name</label>
+      <input type="text" id="name" value="username" required><br>
+      <label for="dob">DOB</label>
+      <input type="date"><br>
+       <label for="email">Email</label>
+       <input type="email" id="email" value="email" required><br></tr>
+       <label for="password">Password</label>
+       <input type="password" id="password" value="email password" required><br>
+       <label>Male</label>
+       <input type="radio" name="gender" value="Male">
+       <label for="female">Female</label>
+       <input type="radio" id="female" name="gender" value="Female"><br>
+<select name="Country" id="Country" >
+    <option value="India">India</option>
+    <option value="UK">UK</option>
+    <option value="Nepal">Nepal</option>
+    <option value="USA">USA</option>
+</select><br>
+<label>Subject</label><br>
+<input type="radio" id="BCA" name="sub" value="BCA">
+<label for="BCA">BCA</label><br>
+<input type="radio" id="BBA" name="sub" value="BBA">
+    <Label for="BBA">BBA</Label><br>
+    <input type="radio" id="MCA" name="sub" value="MCA">
+    <label for="MCA">MCA</label><br>
+    <input type="radio" id="MBA" name="sub" value="MBA">
+    <Label for="MBA">MBA</Label><br>
+    <label >Hobies</label><br>
+    <input type="checkbox"  name="hobies" value="Painting">
+    <label >Painting</label><br>
+    <input type="checkbox" name="hobies" value="Dance">
+        <Label>Dance</Label><br>
+        <input type="checkbox" name="hobies" value="Hiking">
+        <label >Hiking</label><br>
+        <input type="checkbox" name="hobies" value="Yoga">
+        <label >Yoga</label><br>
+        <label >Favourite Colour</label>
+        <input type="color"><br>
+       <!-- attach birth certificate and income certificate -->
+        <label >Attach Your File</label><br>
+        <label >DOB</label>
+        <input type="file" name="DOB"><br>
+        <LAbel>IC</LAbel>
+        <input type="file" name="income certificate"><br>
+      
+        <textarea name="Feedback" cols="30" rows="10">Give Feedback </textarea><br>
+       <input type="submit"><br>
+       <input type="button" value="done">
+   </form>
+</body>
+</html>

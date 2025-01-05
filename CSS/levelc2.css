@@ -1,0 +1,24 @@
+
+#b2{
+    background-color: blue;
+    margin-bottom: 10px;
+    color: black;
+    height: 100px;
+    width: 100px;
+    text-align:right;
+}
+#b1{text-decoration-style: wavy;
+    color: black;
+    text-transform: capitalize;
+    background-color: rgb(211, 196, 226);
+}
+/* font weight is in 100 to 900 for making text more bold */
+#b4{font-size: 50px;
+font-weight: 900;}
+#b5{line-height: 30px;
+font-size: 20px;}
+#b{
+    font-style: italic;
+    font-family:  Calibri;
+}
+.b6{font-family: "Dancing Script", cursive;}
